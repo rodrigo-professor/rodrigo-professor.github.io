@@ -1,1 +1,46 @@
+*{
+  margin: 0%;
+}
 
+.topo{
+  width: 100%;
+  background-color: teal;    
+  height: 100px;
+  display: table;
+
+}
+
+.topo .titulo{
+  text-align: center;
+  vertical-align:middle;
+  display:table-cell;
+  font-size: 35px;
+  color: white;
+}
+
+.topo .titulo .sub-titulo{
+  font-size: 24px;  
+}
+
+.aulas{
+  padding-top: 30px;
+  padding-left: 30px;
+  height: auto;
+}
+
+.aulas .aula{
+  height: 40px;
+  font-size: 20px;
+  color: teal;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.slides{
+  padding-top: 30px;
+  padding-left: 30px;
+  font-weight: 600;
+  height: 60px;
+  font-size: 20px;
+  color: teal;
+}
